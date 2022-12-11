@@ -63,7 +63,7 @@ public class Launch_Page_TestCases extends CommonFunctions{
 		Launch_Page_Objects.pricing.click();
 		actualMessage=Launch_Page_Objects.findpricing.getText();
 	}
-	@Test(enabled = false)
+	@Test
 	public void verifyPricing(){
 		
 		checkPricing();
