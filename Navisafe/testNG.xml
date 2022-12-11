@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Navisafe Test Suite">
+
+	<test name="Launch Page Test case">
+		<classes>
+			<class name="testCases.Launch_Page_TestCases"></class>
+		</classes>
+	</test>
+</suite>

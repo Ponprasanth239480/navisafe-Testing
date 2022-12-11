@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Navisafe Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Launch Page Test case(failed)">
+    <classes>
+      <class name="testCases.Launch_Page_TestCases">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="verifyRequestSubmit"/>
+        </methods>
+      </class> <!-- testCases.Launch_Page_TestCases -->
+    </classes>
+  </test> <!-- Launch Page Test case(failed) -->
+</suite> <!-- Failed suite [Navisafe Test Suite] -->
